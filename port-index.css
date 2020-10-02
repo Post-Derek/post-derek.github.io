@@ -1,0 +1,315 @@
+body{
+  background-color: lightsteelblue;
+  padding: 20px;
+}
+
+h4 {
+  background-color: transparent;
+  transition: background-color .5s;
+  }
+
+h4:hover {
+  background-color:  powderblue;
+  }
+
+h5 {
+  background-color: transparent;
+  transition: background-color .5s;
+  }
+
+h5:hover {
+  background-color: powderblue;
+  }
+
+/* Header/Nav */
+
+.nameHeading{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.introNav{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+
+.introHeading{
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+.infoContainer{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.line{
+  position: relative;
+  height:2px;
+  width:420px; 
+  background-color: black;
+  top:50%;
+  left:33%;
+  border-radius:0px 0px 0px 0px;
+  }
+
+.navBar{
+  
+  padding-top: 10px;
+  font-family: 'Permanent Marker', cursive;
+  }
+
+#home {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 25px;
+  
+}
+
+a.home {
+  text-decoration: none;
+}
+
+#navAbout {
+  padding-right: 20px;
+  font-size: 25px;
+  
+}
+a.navAbout{
+  text-decoration: none;
+}
+
+#portfolio {
+  padding-right: 20px;
+  font-size: 25px;
+  
+}
+
+a.portfolio{
+  text-decoration: none;
+}
+
+#navContact {
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+a.navContact{
+  text-decoration: none;
+}
+
+/* Photo */
+
+#headShot{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 55px;
+  bottom: 10px;
+} 
+
+/* About Section */
+
+#about{
+  top: 60px;
+  margin-left: 50px;
+} 
+
+
+.aboutHeading{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.aboutLine{
+  position: relative;
+  height:2px;
+  width:400px; 
+  background-color: black;
+  border-radius:0px 0px 0px 0px;
+}
+
+.introSection{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+
+}
+
+.aboutSection{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+}
+
+.aboutHeading1{
+  font-family: 'Permanent Marker', cursive;
+}
+.aboutLine1{
+  position: relative;
+  height:2px;
+  width:400px; 
+  background-color: black;
+  border-radius:0px 0px 0px 0px;
+}
+
+/*Portfolio Section*/
+
+.portfolioSection {
+  font-family: 'Permanent Marker', cursive;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.portLine{
+  position: relative;
+  height:2px;
+  width:400px; 
+  background-color: black;
+  border-radius:0px 0px 0px 0px;
+}
+
+#creature{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#creature{
+  transition: 1s ease;
+  }
+  
+#creature:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+#static{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#static{
+  transition: 1s ease;
+  }
+  
+#static:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+#rocket{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#rocket{
+  transition: 1s ease;
+  }
+  
+#rocket:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+#weather{
+  font-family: 'Kalam', cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#weather{
+  transition: 1s ease;
+  }
+  
+#weather:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+
+/*Contact Form */
+
+.contactLine{
+    position: relative;
+    height:2px;
+    width:400px; 
+    background-color: black;
+    border-radius:0px 0px 0px 0px;
+    right: 115px;
+}
+
+.contactSection{
+  font-family: 'Permanent Marker', cursive;
+  padding-bottom: 10px;
+  padding-left: 450px;
+  
+}
+
+.name {
+  position: relative;
+  font-family: 'Kalam', cursive;
+  font-size: larger;
+  left: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.email {
+  position: relative;
+  font-family: 'Kalam', cursive;
+  font-size: larger;
+  left: 560px;
+  bottom: 83px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.message {
+  position: relative;
+  font-family: 'Kalam', cursive;
+  font-size: larger;
+  left: 330px;
+  bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.button{
+    position: relative;
+    left: 650px;
+    bottom: 118px;
+}
+
+/* Links */
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.resume{
+  margin-right: 5%;
+  text-decoration: none;
+
+}
+
+.git{
+  padding-left: 5%;
+  text-decoration: none;
+}
+
+
